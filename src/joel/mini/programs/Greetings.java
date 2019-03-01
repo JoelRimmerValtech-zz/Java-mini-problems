@@ -8,8 +8,8 @@ public class Greetings {
         System.out.println("Hello, what is your name?");
         System.out.print("My name is: ");
 
-        Scanner scanner = new Scanner(System.in);
-        String name = scanner.next();
+        Scanner myScanner = new Scanner(System.in);
+        String name = myScanner.next();
 
         if (name.equals("Alice") || name.equals("Bob")) {
             System.out.print("Hello " + name + ", welcome to my program!");
