@@ -8,7 +8,7 @@ public class SummingUp {
 
     public static void main(String[] args) {
         System.out.println("Welcome to my program - Summing Up!");
-        System.out.print("Enter a number in which this program will add up all the numbers from 0 to your chosen number: ");
+        System.out.print("Enter a number in which this program will add up all the numbers from 0 to your chosen number which are divisible by 3 or 5: ");
 
         while (true) {
             Scanner numberToAdd = new Scanner(System.in);
